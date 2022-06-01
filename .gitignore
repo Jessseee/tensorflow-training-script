@@ -1,4 +1,5 @@
 .ipynb_checkpoints
 models
+backups
 config*.yaml
 !config.example.yaml
