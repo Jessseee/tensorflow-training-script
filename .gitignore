@@ -1,5 +1,11 @@
-.ipynb_checkpoints
-models
-backups
-config*.yaml
+models/
+backups/
+dataset/
+logs*/
+
 !config.example.yaml
+config*.yaml
+
+__pycache__/
+venv/
+.idea/
