@@ -1,5 +1,8 @@
-# Tensorflow model training notebook
+# Tensorflow model training setup
 The Python files in the repository can be used as a starting point for a simple and clean way to train TensorFlow models for classification in computer vision. The only Python module required is TensorFlow. **Tested on TensorFlow v2.8.0 and 2.9.1.**
+
+## Usage
+Make sure you have the tensorflow python library installed and a valid `config.yaml` file. Then to start the training process run `python train.py` in your terminal of choice.
 
 ## Config
 In most cases the training setup file itself should not need to be edited, instead a configuration file can be used to change the dataset, model, callbacks and training parameters. Below you can find a reference for all the possible options in the configuration file. *Note: \*required*
